@@ -1,0 +1,27 @@
+# Get all request
+
+Get http://localhost:3200/api/products HTTP/1.1
+
+
+### Get http://localhost:3000/api/portfolio/1654651.2132 HTTP/1.1
+
+
+ POST http://localhost:3000/api/portfolio HTTP/1.1
+Content-Type: "application/json"
+
+{
+    "title": "portfolio 2",
+    "price": "2500" 
+}
+
+### Update
+PUT http://localhost:3000/api/portfolio/639466f01f51046e2155928a HTTP/1.1
+Content-Type: "application/json"
+
+{
+    "title": "portfolio 2",
+    "price": "2500" 
+}
+
+### Delete
+DELETE  http://localhost:3000/api/portfolio/639466f01f51046e2155928a HTTP/1.1
